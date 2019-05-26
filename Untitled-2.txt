@@ -1,4 +1,9 @@
-//  This file holds the data from the survey.html file
+/ ===============================================================================
+// DATA
+// Below data will hold all of the possible friends.
+// ===============================================================================
+
+
 var friends = [
   {
     name: "Ahmed",
@@ -99,7 +104,7 @@ var friends = [
 
 ];
 
-// The module.exports makes the friends.js file accessible to all the files.
+// Here we export the array. This makes it accessible to other files using require.
 module.exports = friends;
 Collapse
 
