@@ -22,5 +22,5 @@ server.js --    This file is were the connection is made for the brouser to comm
                        
          
               
- 
+                 This app was completed but not tested successfully due to connection errors with the server.js file.
               
