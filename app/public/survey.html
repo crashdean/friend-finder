@@ -253,7 +253,7 @@
 
         // We are storing the data in the friends api
         $.post("/api/friends", userData, function(data) {
-
+console.log(data);
           // The name and the photo of the best match are grabbed and sent to the modal
           $("#match-name").text(data.name);
           $("#match-img").attr("src", data.photo);
