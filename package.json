@@ -1,8 +1,15 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "Finds best match friend",
+  "description": "",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.0",
+    "nodemon": "^1.19.1",
+    "path": "^0.12.7",
+    "server": "^1.0.18"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -16,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/crashdean/FriendFinder/issues"
   },
-  "homepage": "https://github.com/crashdean/FriendFinder#readme",
-  "dependencies": {
-    "path": "^0.12.7"
-  }
+  "homepage": "https://github.com/crashdean/FriendFinder#readme"
 }
