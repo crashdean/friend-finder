@@ -11,11 +11,6 @@ module.exports = function(app) {
 
   app.post("/api/friends", function(req, res) {
     
-    }
-  
-  )};
-
-
 // Here we create a var for setting the friendMatch
   var friendMatch = {
     name: "",
@@ -50,10 +45,9 @@ module.exports = function(app) {
     }
   }
 
-  friends.push(userData);
+  friends.push(newData);
 
   res.json(friendMatch);
-
-
-  
+});
+};
 
