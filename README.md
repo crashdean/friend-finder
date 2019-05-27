@@ -21,6 +21,6 @@ server.js --    This file is were the connection is made for the brouser to comm
                  the web app to locate the home.html.   This file also contains the body-parser middleware by default.
                        
          
-              
+                Friends app has been tested and works great with local connection 8080.                 
                  
               
